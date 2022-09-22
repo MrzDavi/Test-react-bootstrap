@@ -16,6 +16,7 @@ function App() {
               <div class="d-grid gap-1"><button type="button" class="btn btn-outline-primary px-10 py-5">Conheça nossos pets!</button>
               </div>
             </Card.Body>
+            <Button>Test</Button>
         </Card>
         
         
@@ -25,7 +26,7 @@ function App() {
                 <Form.Label>Inscreva-se em nosso Newsletter</Form.Label>
                  <Form.Control type="email" placeholder="Example@email.com" />
                    <Form.Text className="text-muted">
-                    Te avisaremos quando nossa próxima feira mensal acontecerá
+                    Te avisaremos quando a nossa próxima feira mensal acontecerá
                    </Form.Text>
                </Form.Group>
         </Form>
@@ -34,7 +35,7 @@ function App() {
         <Breadcrumb>
         <Breadcrumb.Item>Apoie nossa causa</Breadcrumb.Item>
         <Breadcrumb.Item>Seja um AUmigo</Breadcrumb.Item>
-        <Breadcrumb.Item active>Contato</Breadcrumb.Item>
+        <Breadcrumb.Item>Contato</Breadcrumb.Item>
         </Breadcrumb>
           <Alert variant="second"> Participe!</Alert>
           <Button>Chave PIX Copia e cola</Button>
